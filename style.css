@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headwrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+.headwrap h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #4A90E2;
+    font-size: 1.2vw;
+    padding: 10px;
+}
+
+.headwrap h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #4A90E2;
+    font-size: .8vw;
+}
+
+.headwrap img {
+    width: 22vw;
+    padding-right: 20px;
+}
+
+.headwrap input {
+    padding: 5px;
+    border: 1px , #4A4A4A;
+    height: 3vh;
+    width: 35vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  400;
+    font-size: 14px;
+    color: #4A4A4A;
+}
+
+.optioncontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: #4A90E2;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  900;
+    font-size: 15px;
+    color: white;
+}
+
+.col li {
+    display: flex;
+    list-style-type: none;
+    height: 5.5vh;
+}
+
+.col a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  900;
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col a:hover {
+    background-color: rgb(95, 168, 252);
+}
+
+.buttoncontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: #4A90E2;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgb(56, 109, 170);
+    width: 25vw;
+    height: 7vh;
+    border-radius: 5px;
+}
+
+.buttoncontainer a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  900;
+    font-size: 1.5vw;
+    color: #4A90E2;
+}
+
+.buttoncontainer a:hover {
+    color: rgb(56, 109, 170);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #4A4A4A;
+    font-size: .7vw;
+}
