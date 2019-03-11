@@ -3,6 +3,9 @@ A simple web application that will generate random restaraunt reccomendations ba
 
 --
 USAGE
+--
 A user either allows location via their device, or they can manually enter a zip code or city. They can then choose foods
 that they do not want to eat. The application then collects their choices, queries Yelp's API and returns a random restaraunt
 based on their selections. 
+
+This was created originally as a UX project of mine, but has become a project for me to work on my front-end dev skills.
